@@ -6,6 +6,10 @@ Sources:
 - [Stopwords](https://github.com/stopwords-iso/stopwords-id)
 - [Dataset](https://www.kaggle.com/datasets/greegtitan/indonesia-wikipedia-pages/data?select=wikipedia_id-clean.csv)
 
+Run the code with:
+
+nohup python -u relative_init.py -corpus wiki-text-id.txt -embeddings cc.id.300.bin -output relative_init_vectors.txt
+
 
 ## Info from original README
 
