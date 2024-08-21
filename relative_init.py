@@ -68,7 +68,7 @@ def relativeinit_fromcontexts_file(
                 # if freq<min_freq_cooc_pairs: break
                 if word_cooc in vocabwords:
                     processed = True
-                    vector_word_cooc = modelwords.__getitem__(word_cooc)
+                    vector_word_cooc = modelwords.wv[word_cooc]
                     vector_pair = vector_pair + (freq * vector_word_cooc)
             if processed == True:
                 cont_lines += 1
@@ -112,7 +112,7 @@ def relativeinit_fromcontexts_dict(
                     word_cooc = index2word[index_cooc]
                     if word_cooc in vocabwords:
                         processed = True
-                        vector_word_cooc = modelwords.__getitem__(word_cooc)
+                        vector_word_cooc = modelwords.wv[word_cooc]
                         vector_pair = vector_pair + (freq * vector_word_cooc)
                         cont_pair_cooc += 1
             if processed == True:
