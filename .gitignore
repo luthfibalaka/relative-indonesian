@@ -2,3 +2,4 @@
 __pycache__
 wiki-text-id.txt
 *.out
+relative_init_vectors.txt
