@@ -11,7 +11,6 @@ from get_vocabulary import (
 )
 from context_extraction import (
     extract_context_pairs,
-    load_dictfreq_file,
     get_vocab_fromfile,
 )
 import gensim
