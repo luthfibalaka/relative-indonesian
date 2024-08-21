@@ -2,6 +2,7 @@
 from argparse import ArgumentParser
 import operator
 import math
+import os
 
 
 def pmi_smoothed(joint_cooc, total_cooc, freq_word1, freq_word2, alpha_smoothing=1):
