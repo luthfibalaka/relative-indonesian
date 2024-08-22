@@ -1,14 +1,13 @@
 ## Relative Package
 
-This repository hosts the code to generate word embeddings for the paper *[A Latent Variable Model for Learning Distributional Relation Vectors](http://josecamachocollados.com/papers/relative_ijcai2019.pdf)* (IJCAI 2019). This is actually a copy of the [original repository](https://github.com/pedrada88/relative), but I adjusted it for Indonesian language.
+This repository hosts the code to generate word embeddings for the paper *[A Latent Variable Model for Learning Distributional Relation Vectors](http://josecamachocollados.com/papers/relative_ijcai2019.pdf)* (IJCAI 2019). This is actually a copy of the [original repository](https://github.com/pedrada88/relative), but I adapted it to use modern packages.
 
 Sources:
-- [Stopwords](https://github.com/stopwords-iso/stopwords-id)
-- [Dataset](https://www.kaggle.com/datasets/greegtitan/indonesia-wikipedia-pages/data?select=wikipedia_id-clean.csv)
+- [Dataset](https://www.kaggle.com/datasets/mikeortman/wikipedia-sentences)
 
 Run the code with:
 
-nohup python -u relative_init.py -corpus wiki-text-id.txt -embeddings cc.id.300.bin -output relative_init_vectors.txt
+nohup python -u relative_init.py -corpus wiki_clean.txt -embeddings cc.en.300.bin -output relative_init_vectors.txt
 
 
 ## Info from original README

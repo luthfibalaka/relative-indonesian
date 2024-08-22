@@ -222,7 +222,7 @@ if __name__ == "__main__":
         "--stopwords_path",
         help='Path to stopwords file. Write "false" if no stopwords to be used',
         required=False,
-        default="./stopwords-id.txt",
+        default="./stopwords_en.txt",
     )
     parser.add_argument(
         "-min_freq",

@@ -1,5 +1,5 @@
 *.bin
 __pycache__
-wiki-text-id.txt
+wiki_clean.txt
 *.out
 relative_init_vectors.txt
